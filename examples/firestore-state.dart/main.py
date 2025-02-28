@@ -1,5 +1,5 @@
 from langgraph.libs.langgraph.langgraph.graph import FirestoreStateGraph
-from langgraph.prebuilt import firestore_node
+from langgraph.libs.langgraph.langgraph.prebuilt.firestore_node import firestore_node
 from typing_extensions import TypedDict
 
 # Define state schema
